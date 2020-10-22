@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "common_data",
+    "children" : [ {
+      "name" : "Test_Mobile",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "3aaa7ed9e3aeba86",
+        "parentUid" : "355ce8fe2bd237749d2bfc9c1cc72057",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603241870664,
+          "stop" : 1603241873479,
+          "duration" : 2815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "355ce8fe2bd237749d2bfc9c1cc72057"
+    } ],
+    "uid" : "f2b750595335492e70ff268ca15f5a8e"
+  } ]
+}

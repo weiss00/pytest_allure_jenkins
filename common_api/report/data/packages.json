@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "common_data",
+    "children" : [ {
+      "name" : "test_2",
+      "uid" : "3aaa7ed9e3aeba86",
+      "parentUid" : "c8a531b2d464bce3a8879b5bca1b6d5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603241870664,
+        "stop" : 1603241873479,
+        "duration" : 2815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c8a531b2d464bce3a8879b5bca1b6d5a"
+  } ]
+}
