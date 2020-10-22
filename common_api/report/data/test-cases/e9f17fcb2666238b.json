@@ -1,0 +1,105 @@
+{
+  "uid" : "e9f17fcb2666238b",
+  "name" : "test_2",
+  "fullName" : "common_data.Test_Mobile#test_2",
+  "historyId" : "39ce1bfd5f7da74736f71055501d472e",
+  "time" : {
+    "start" : 1603347242409,
+    "stop" : 1603347242707,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9da20e73db39633e",
+      "name" : "8c8c4a0e-8c33-4c74-bfd5-afbdd4e0a6a2-attachment.attach",
+      "source" : "9da20e73db39633e.attach",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "手机号码归属地-正例"
+  }, {
+    "name" : "suite",
+    "value" : "common_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Mobile"
+  }, {
+    "name" : "host",
+    "value" : "Weiss"
+  }, {
+    "name" : "thread",
+    "value" : "2088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4bfae86abb72caa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603347007663,
+        "stop" : 1603347007857,
+        "duration" : 194
+      }
+    }, {
+      "uid" : "1bc49b4242fd53fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603241870664,
+        "stop" : 1603241873479,
+        "duration" : 2815
+      }
+    }, {
+      "uid" : "7c21d441b65a74cc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1603241839028,
+        "stop" : 1603241841060,
+        "duration" : 2032
+      }
+    }, {
+      "uid" : "ed432b59af5e3c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603241279173,
+        "stop" : 1603241279414,
+        "duration" : 241
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9f17fcb2666238b.json",
+  "parameterValues" : [ ]
+}

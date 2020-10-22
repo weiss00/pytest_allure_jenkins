@@ -1,0 +1,80 @@
+{
+  "uid" : "41c6e64232d9de9c",
+  "name" : "test_4",
+  "fullName" : "common_data.Test_Mobile#test_4",
+  "historyId" : "7445ad2edda5e6aee76d1731ef254fb8",
+  "time" : {
+    "start" : 1603347242941,
+    "stop" : 1603347243107,
+    "duration" : 166
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '202' == '200'\n  - 200\n  + 202",
+  "statusTrace" : "self = <common_api.common_data.Test_Mobile object at 0x000001C3C25FF1D0>\n\n    @allure.feature(\"手机号码归属地-特殊字符\")\n    def test_4(self):\n>       assert self.common(\"122@#!313\")['resultcode'] == \"200\"\nE       AssertionError: assert '202' == '200'\nE         - 200\nE         + 202\n\ncommon_data.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '202' == '200'\n  - 200\n  + 202",
+    "statusTrace" : "self = <common_api.common_data.Test_Mobile object at 0x000001C3C25FF1D0>\n\n    @allure.feature(\"手机号码归属地-特殊字符\")\n    def test_4(self):\n>       assert self.common(\"122@#!313\")['resultcode'] == \"200\"\nE       AssertionError: assert '202' == '200'\nE         - 200\nE         + 202\n\ncommon_data.py:36: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56403deedca3720e",
+      "name" : "96f16af2-45ae-4a45-b743-7ed9c1685d1f-attachment.attach",
+      "source" : "56403deedca3720e.attach",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "手机号码归属地-特殊字符"
+  }, {
+    "name" : "suite",
+    "value" : "common_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Mobile"
+  }, {
+    "name" : "host",
+    "value" : "Weiss"
+  }, {
+    "name" : "thread",
+    "value" : "2088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "41c6e64232d9de9c.json",
+  "parameterValues" : [ ]
+}

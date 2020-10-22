@@ -1,0 +1,70 @@
+{
+  "uid" : "4bfae86abb72caa4",
+  "name" : "test_2",
+  "fullName" : "common_data.Test_Mobile#test_2",
+  "historyId" : "39ce1bfd5f7da74736f71055501d472e",
+  "time" : {
+    "start" : 1603347007663,
+    "stop" : 1603347007857,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cef7df7dcd3bf081",
+      "name" : "11d9a0da-1f73-4291-a10c-496338162721-attachment.attach",
+      "source" : "cef7df7dcd3bf081.attach",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "手机号码归属地"
+  }, {
+    "name" : "suite",
+    "value" : "common_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Mobile"
+  }, {
+    "name" : "host",
+    "value" : "Weiss"
+  }, {
+    "name" : "thread",
+    "value" : "12300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bfae86abb72caa4.json",
+  "parameterValues" : [ ]
+}
